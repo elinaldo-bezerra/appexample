@@ -13,7 +13,11 @@ Things you may want to cover:
 
 * Database creation
 
+<<<<<<< HEAD
 * Database initialization 
+=======
+* Database initialization
+>>>>>>> fbb732c8a886cb3995570fe36d09a105a7e2f634
 
 * How to run the test suite
 
@@ -21,4 +25,8 @@ Things you may want to cover:
 
 * Deployment instructions
 
+<<<<<<< HEAD
 * ... ...
+=======
+* ...
+>>>>>>> fbb732c8a886cb3995570fe36d09a105a7e2f634

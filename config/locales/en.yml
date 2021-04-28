@@ -30,4 +30,8 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+<<<<<<< HEAD
   hello: "Hello world" 
+=======
+  hello: "Hello world"
+>>>>>>> fbb732c8a886cb3995570fe36d09a105a7e2f634

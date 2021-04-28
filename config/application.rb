@@ -18,7 +18,10 @@ module Appexample
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+<<<<<<< HEAD
     
     config.i18n.default_locale = "pt-BR"
+=======
+>>>>>>> fbb732c8a886cb3995570fe36d09a105a7e2f634
   end
 end

@@ -4,7 +4,11 @@ if !defined?(Spring) && [nil, "development", "test"].include?(ENV["RAILS_ENV"])
   require "bundler"
 
   # Load Spring without loading other gems in the Gemfile, for speed.
+<<<<<<< HEAD
   Bundler.locked_gems&.specs&.find { |spec| spec.name == "spring" }&.tap do |spring|
+=======
+  Bundler.locked_gems.specs.find { |spec| spec.name == "spring" }&.tap do |spring|
+>>>>>>> fbb732c8a886cb3995570fe36d09a105a7e2f634
     Gem.use_paths Gem.dir, Bundler.bundle_path.to_s, *Gem.path
     gem "spring", spring.version
     require "spring/binstub"
