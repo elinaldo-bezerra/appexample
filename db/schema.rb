@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2021_04_27_205116) do
   create_table "customers", force: :cascade do |t|
     t.string "nome"
     t.string "email"
-    t.date "birthday"
+    t.date "birthday" 
     t.text "obs"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

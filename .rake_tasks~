@@ -15,7 +15,7 @@ assets:environment
 assets:precompile
 cache_digests:dependencies
 cache_digests:nested_dependencies
-db:create
+db:create 
 db:drop
 db:environment:set
 db:fixtures:load
